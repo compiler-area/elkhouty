@@ -44,7 +44,7 @@ int main(){
 				int x = system("git rev-list --count HEAD");
 				char y = x;
 				system("git add *");
-				system("git commit -m 'new" + x);
+				system("git commit -m new" + x);
 				system("git push origin master");
 
 				 break;
